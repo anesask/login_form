@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
+
+html{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 62.5%;
+}
+
+body{
+    background: linear-gradient(to bottom, rgba(255,255,255,0.1) 0%,rgba(178,178,178,0.2) 100%),url(https://source.unsplash.com/P1Uf-s_TTgs) no-repeat 50% 50%;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.login{
+    display: flex;
+    flex: 0 1;    
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5rem;    
+}
+
+.heading{
+    font-weight: 400;
+    color: #000;
+    font-size: 6rem;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+input{
+    display: block;
+    width: 32rem;
+    height: 5rem;
+    background: transparent;
+    outline: none;
+    border: .1rem solid rgba(0,0,0,0.2);    
+    font-weight: 500;
+    font-size: 1.25rem;
+    margin-bottom: .8rem;
+    padding-left: 3.5rem;
+    border-radius: .1rem;
+}
+
+input::placeholder{
+    text-transform: uppercase;
+}
+
+input:focus, input:hover{
+    background: rgba(50, 50, 50, 0.15);
+    transition: all .3s ease-in;
+}
+
+.input-wrapper{
+    position: relative;
+}
+
+.input-icon{
+    position: absolute;
+    left: 1rem;
+    top: calc(50% - 0.5em);
+}
+
+.fas{
+    font-size: 1.25rem;
+}
+
+.forgot-pass{
+    color: #000;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.btn{
+    float: right;
+    width: 15rem;
+    height: 5rem;
+    font-size: 1.6rem;
+    background: transparent;
+    border: .1rem solid rgba(0,0,0,0.2);  
+    
+}
+
+.btn:focus, .btn:hover{
+    background: rgba(50, 50, 50, 0.15);
+    transition: all .3s ease-in;
+}
